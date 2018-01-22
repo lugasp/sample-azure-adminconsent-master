@@ -1,11 +1,15 @@
 {
-  "name":"sample-aad-admin-consent",
+  "name": "sample-aad-admin-consent",
   "version": "0.1.0",
   "scripts": {
     "postinstall": "bower install"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-webserver": "^0.9.1"
-  }
+  },
+  "description": "When building web applications using the implicit OAuth flow there are scenarios which require admin consent in order to make the application available for the organization. This is for example when the application requires permissions such as **Office 365 SharePoint Online/Run seach queries as user**.",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC"
 }
